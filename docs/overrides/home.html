@@ -1,0 +1,76 @@
+{#-
+  This file was automatically generated - do not edit
+-#}
+{% extends "main.html" %}
+{% block tabs %}
+  {{ super() }}
+  <style>
+    .md-header {
+      position: initial;
+    }
+    .md-main__inner {
+      margin: 0;
+    }
+    .md-content {
+      display: none;
+    }
+    @media screen and (min-width: 60em) {
+      .md-sidebar--secondary {
+        display: none;
+      }
+    }
+    @media screen and (min-width: 76.25em) {
+      .md-sidebar--primary {
+        display: none;
+      }
+    }
+
+    .landing {
+      padding: 2rem;
+      font-size: large;
+    }
+
+    .landing h1 {
+      font-size: xxx-large;
+    }
+
+    .landing a {
+      display: inline-block;
+      margin-top: .5rem;
+      margin-right: 1rem;
+      border-style: solid;
+      border-radius: .1rem;
+      padding: 0.5em 2em;
+      font-weight: bold;
+    }
+
+    .hero_btn {
+      border-width: 0;
+      background-color: #67b637;
+    }
+  </style>
+  <section class="mdx-container">
+    <header class="landing">
+      <h1>ChatPointsTTV</h1>
+      <h2>A Minecraft plugin for streamers</h2>
+      <p>Integrate your Minecraft world with your Twitch chat and allow your viewers interact with it through Channel Points, Bits, Subscriptions and more.<br>100% customizable, 100% open-source, 100% free</p>
+      <a href="https://modrinth.com/plugin/chatpointsttv" class="hero_btn">Download</a>
+      <a href="install"> Getting Started</a>
+      
+  </header>
+  <main>
+      <section id="features">
+          <h2>Features</h2>
+          <ul>
+              <li>Easy to install and configure</li>
+              <li>Customizable settings</li>
+              <li>Regular updates and support</li>
+          </ul>
+      </section>
+      
+  </main>
+
+  </section>
+{% endblock %}
+{% block content %}{% endblock %}
+{% block footer %}{% endblock %}

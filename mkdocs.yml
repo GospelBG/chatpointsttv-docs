@@ -1,0 +1,41 @@
+site_name: ChatPointsTTV
+site_url: https://gosdev.me/chatpointsttv
+repo_name: GospelBG/ChatPointsTTV
+repo_url: https://github.com/GospelBG/ChatPointsTTV
+site_dir: site/
+nav:
+  - Home: index.md
+  - Installation: install.md
+  - Configuration: 
+    - Global Configuration: config/index.md
+    - Events and Actions: config/events_and_actions.md
+    - Permissions: config/permissions.md
+    - Localization: config/localization.md
+  - Commands: commands.md
+  - Help: help.md
+theme:
+  name: material
+  favicon: img/icon.png
+  logo: img/icon.png
+  custom_dir: docs/overrides
+  icon:
+    repo: fontawesome/brands/github
+
+  palette:
+    scheme: slate
+    primary: green
+  features:
+    - navigation.tabs
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.instant.progress
+    - navigation.footer
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
