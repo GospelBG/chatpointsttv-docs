@@ -2,7 +2,7 @@ site_name: ChatPointsTTV
 site_url: https://gosdev.me/chatpointsttv
 repo_name: GospelBG/ChatPointsTTV
 repo_url: https://github.com/GospelBG/ChatPointsTTV
-site_dir: site/
+site_dir: site/chatpointsttv/
 nav:
   - Home: index.md
   - Installation: install.md
